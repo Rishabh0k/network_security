@@ -57,7 +57,7 @@ class DataTransformation:
         except Exception as e:
             raise NetworkSecurityException(e,sys)
 
-    def initate_data_transformation(self)->DataTransformationArtifact:
+    def initiate_data_transformation(self)->DataTransformationArtifact:
         logging.info("Entered initiate_data_transformation method of datatransformation class")
         try:
             logging.info("Starting data transformation")
